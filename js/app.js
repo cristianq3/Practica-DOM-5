@@ -64,11 +64,14 @@ function play() {
   ingresarNros();
 
   intervaloIniciado = setInterval(ingresarNros, 10);
-  btnPlay.addEventListener("click", play);
+  btnPlay.removeEventListener("click", play);
+
+  
+ 
 }
 function pausa() {
   clearInterval(intervaloIniciado);
-  
+  btnPlay.addEventListener("click", play);
 }
 
 function reiniciar() {
@@ -78,5 +81,6 @@ function reiniciar() {
   m = 0;
   s = 0;
   mls = 0;
-  
+  btnPlay.addEventListener("click", play);
+
 }
