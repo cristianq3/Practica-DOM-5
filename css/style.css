@@ -34,24 +34,22 @@ main {
   border-radius: 1px;
   font-weight: 500;
   font-size: 25px;
-  background-color: rgba(128, 128, 128, 0.345);
+  background-color: rgba(135, 21, 21, 0.075);
   max-width: 500px;
   text-shadow: -4px 8px 4px rgba(54, 54, 54, 1);
-
 
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .hora {
-  
   height: fit-content;
   padding: 40px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: rgba(13, 120, 7, 0.11);
+  background-color: rgba(135, 21, 21, 0.075);
   max-width: 500px;
   border-radius: 1px;
   text-shadow: -4px 5px 3px rgba(54, 54, 54, 0.427);
- 
+
   font-family: "cronometro";
   font-size: 35px;
   border-top-left-radius: 10px;
@@ -67,6 +65,7 @@ main {
 
 .btn:hover {
   transform: scale(1.2);
+
   color: #00ffd9;
   transition: 150ms;
 }
@@ -76,17 +75,17 @@ main {
 }
 
 .bi {
-font-size: 55px;
+  font-size: 55px;
 }
 
 @media (max-width: 540px) {
-
   .contenedorReloj {
     width: 300px;
     font-size: 30px;
   }
 }
 
-.hora, .fecha {
+.hora,
+.fecha {
   width: 230px;
 }
