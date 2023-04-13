@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
+@font-face {
+  font-family: cronometro;
+  src: url("/fonts/fuenteReloj.ttf");
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -34,13 +39,15 @@ main {
   box-shadow: 3px 5px #18133453;
 }
 .hora {
-  height: 70%;
+  height:fit-content;
+  padding: 40px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: rgba(128, 128, 128, 0.345);
   max-width: 500px;
   border-radius: 1px;
   text-shadow: -4px 8px 4px rgba(54, 54, 54, 1);
   box-shadow: 3px 5px #18133453;
+  font-family: 'cronometro'
 }
 
 .btn {
