@@ -64,10 +64,19 @@ function play() {
   ingresarNros();
 
   intervaloIniciado = setInterval(ingresarNros, 10);
+  btnPlay.addEventListener("click", play);
 }
 function pausa() {
-  alert("Se puso PAUSA");
+  clearInterval(intervaloIniciado);
+  
 }
+
 function reiniciar() {
-  alert("Se puso REINICIAR");
+  clearInterval(intervaloIniciado);
+  contenedor.innerHTML = "00:00:00.00";
+  h = 0;
+  m = 0;
+  s = 0;
+  mls = 0;
+  
 }
