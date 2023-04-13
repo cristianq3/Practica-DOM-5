@@ -67,7 +67,6 @@ main {
 
 .btn:hover {
   transform: scale(1.2);
-
   color: #00ffd9;
   transition: 150ms;
 }
